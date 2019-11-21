@@ -1,0 +1,313 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: #FCDA00
+}
+
+.bera {}
+
+.top {
+    ;
+    width: 1000px;
+    background-color: #FCDA00;
+    height: 80px;
+    margin: auto;
+}
+
+.logo {}
+
+.logo img {
+    float: left;
+    margin-left: 20px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.menu {}
+
+.menuvar {
+    float: right;
+}
+
+.menuvar ul {
+    margin-right: 100px;
+    margin-top: 20px
+}
+
+.menuvar ul li {
+    list-style-type: none;
+    float: left
+}
+
+.menuvar ul li a {
+    text-decoration: none;
+    padding: 2px 15px;
+    font-size: 25px;
+    font-family: 'Noto Serif', serif;
+   
+    color: black
+}
+
+.menuvar ul li a:hover {
+    border: 1px dotted black;
+    width: 10px;
+    height: 10px;
+    color: white;
+    background-color:black;
+    border-radius: 10px 50px 50px;
+}
+
+.meader {}
+
+.mid {
+    width: 1000px;
+    height: 500px;
+    background-color: #FCDA00;
+    margin: auto;
+}
+
+.write {
+    float: left;
+    padding: 20px 0px 0px 30px;
+}
+
+.write h1 {
+    padding: 10px 0px 0px 30px;
+    margin-top: 40px;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+.write h2 {
+    font-size: 22px;
+    padding: 15px 0px 10px 40px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.write p {
+    padding: 20px 20px 10px 40px;
+    font-family: 'Satisfy', cursive;
+    font-size: 16px
+}
+.kon{ margin-left: 40px;}
+.kon i{ padding-right: 5px; font-size: 25px;color:black}
+.kon i:hover{color: brown; background-color: floralwhite ;font-size: 30px}
+.mon {}
+
+.mon img {
+    margin-left: 50px;
+    width: 380px;
+    height: 420px;
+    border-radius: 20px;
+}
+
+
+
+.midear2 {
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+}
+
+.mid2 {}
+
+.leka {}
+
+.leka h1 {
+    font-size: 25px;
+    text-align: center;
+    font-family: serif;
+    margin-top: 50px;
+    padding: 20px
+}
+
+.leka p {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.feature_container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 75px auto;
+    width:1000px
+}
+.feature_container .feature_box{width: 25%;display: flex;margin-right: 3%;padding:20px}
+.feature_box .f_image{}
+.feature_box .f_image img{
+    width: 35px;
+    height: 30px;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.feature_box .f_content{}
+.feature_box .f_content h2{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.feature_box .f_content p{
+    font-size: 16px;
+    text-align: justify;
+   font-family: 'Dancing Script', cursive;
+    color: gray;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 600px;
+
+}
+
+.last {
+    width: 1000px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.last h2 {
+    text-align: center;
+    padding: 20px;
+    0px;
+    color: #FCD00;
+    font-family: 'Noto Serif', serif;
+    color: #FCDA00;
+}
+
+.last p {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    color: gainsboro
+}
+
+.last input(submit) {
+    width: 200px
+}
+
+.icion {
+    margin-left: 520px;
+    ;
+    width: 1000px;
+}
+
+.icion i {
+    padding: 8px;
+    background-color: #FCDA00;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: black
+
+}
+
+a i:hover {
+    background-color: white;
+    color: black;
+    
+   
+}
+
+
+
+.finish {
+    width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.finish .finish1 {
+    width: 150px;
+    height: 200px;
+    float: left;
+    font-family: inherit;
+   
+    font-size: 15px;
+    color: white;
+    font-size: 18px
+}
+
+.finish .finish2 {
+    width: 150px;
+    height: 200px;
+    float: left;
+    font-family: 'Satisfy', cursive;
+    margin-left: 100px;
+}
+
+.finish .finish3 {
+    width: 150px;
+    height: 200px;
+    float: left;
+    font-family: 'Satisfy', cursive;
+    margin-left: 25px;
+}
+
+.finish .finish4 {
+    width: 150px;
+    height: 200px;
+    float: right;
+    font-family: 'Satisfy', cursive;
+    margin-right: 100px;
+}
+
+.finish .finish5 {
+    width: 150px;
+    height: 200px;
+    float: right;
+    font-family: 'Satisfy', cursive;
+}
+
+.finish a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: blue;
+}
+
+.flot img {
+    margin-left: -50px;
+    margin-top: -50px;
+    display: inline;
+    margin: -top: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.flot i {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-bottom: -20px;
+}
+
+.six img {
+    margin-top: 5px;
+}
+
+.pic1 {
+    margin-top: -20px
+}
